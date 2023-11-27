@@ -769,3 +769,4 @@ Explore the customization options within Google Earth Studio to style the OpenSt
 By seamlessly integrating Google Earth Studio with OpenStreetMap, you can unlock a new dimension of storytelling and visualization, combining the power of satellite imagery and 3D terrain with up-to-date and detailed map information.
 
 # My perosonal Video
+[https://youtu.be/l8SiOyaCblM]
