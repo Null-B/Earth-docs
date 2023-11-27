@@ -34,13 +34,13 @@ Google Earth Studio operates similarly to Adobe After Effects, allowing you to w
 
 When creating a new project, it's essential to understand various parameters, including:
 
-- [**Name**](#Name)
-- [**World**](#World)
-- [**Dimensions**](#Dimensions)
-- [**Duration**](#Duration)
-  - [**Frames**](#Frames)
-  - [**Seconds**](#Seconds)
-- [**Frame Rate**](#Frame-Rate)
+- [**Name**](#name)
+- [**World**](#world)
+- [**Dimensions**](#dimensions)
+- [**Duration**](#duration)
+  - [**Frames**](#frames)
+  - [**Seconds**](#seconds)
+- [**Frame Rate**](#frame-rate)
 
 These parameters are crucial and become more important as you become familiar with Google Earth Studio, enabling you to create advanced animations and videos. Click on each parameter to learn more.
 
@@ -125,7 +125,7 @@ This is self-explanatory. We can use the seconds options to set the project leng
 
 Frame rate in video production refers to the number of frames or images displayed per second in a video. Common frame rates include 24 fps for a cinematic look, 30 fps for standard video, and 60 fps for smooth motion. Higher frame rates, like 120 fps, are used for slow-motion effects. Frame rate choice affects the video's motion and visual style.
 
-If you want a video explanation, here is a great [example]()
+If you want a video explanation, here is a great [example](#my-perosonal-video)
 
 # UI/UX Earth Studio
 
@@ -139,19 +139,19 @@ This is the screen that you will be shown after the configuration of your projec
 
 The application interface features a prominent search bar at the top, accompanied by a taskbar containing six essential buttons. Let's delve into the functionalities of each:
 
-1. [**Datei**](#The-File-menu) - This section is dedicated to managing your files, offering options such as creating new projects, opening existing ones, and accessing recently opened projects.
+1. [**Datei**](#the-file-menu) - This section is dedicated to managing your files, offering options such as creating new projects, opening existing ones, and accessing recently opened projects.
 
-2. [**Bearbeiten**](#Edit) - The Edit section provides fundamental file editing functions, including undo, redo, cut, copy, paste, delete, select all, and deselect.
+2. [**Bearbeiten**](#edit) - The Edit section provides fundamental file editing functions, including undo, redo, cut, copy, paste, delete, select all, and deselect.
 
-3. [**Ansicht**](#View) - Adjust the display options of your files in this section. It encompasses settings for multi-view, preview quality, guides, fullscreen toggle, view port mask, available areas, map style, and track points.
+3. [**Ansicht**](#view) - Adjust the display options of your files in this section. It encompasses settings for multi-view, preview quality, guides, fullscreen toggle, view port mask, available areas, map style, and track points.
 
-4. [**Overlays**](#Overlays) - Explore the Overlays section to enhance your files with imported overlay files or track points. This section also covers exporting options for After Effects and guidance on obtaining 3D track points.
+4. [**Overlays**](#overlays) - Explore the Overlays section to enhance your files with imported overlay files or track points. This section also covers exporting options for After Effects and guidance on obtaining 3D track points.
 
-5. [**Animation**](#Animation) - Create dynamic content with animation features. The Animation section includes rendering options, animation settings such as auto-ease, ease in/out, linear, and step.
+5. [**Animation**](#animation) - Create dynamic content with animation features. The Animation section includes rendering options, animation settings such as auto-ease, ease in/out, linear, and step.
 
-6. [**Hilfe**](#Help) - Find assistance and resources in the Help section, which includes documentation, a user forum, feedback submission, and a comprehensive list of keyboard shortcuts.
+6. [**Hilfe**](#help) - Find assistance and resources in the Help section, which includes documentation, a user forum, feedback submission, and a comprehensive list of keyboard shortcuts.
 
-7. [**Search icon**](#Search-Icon) - Utilize the search function with the search icon to efficiently locate specific content within your files.
+7. [**Search icon**](#work-window-and-user-interface) - Utilize the search function with the search icon to efficiently locate specific content within your files.
 
 ### The File menu
 
@@ -184,6 +184,7 @@ If you want to use your camera and track points outside of Earth Studio, you'll 
 For After Effects, this is an Adobe ExtendScript file (.jsx), which recreates the camera and any track points within a new After Effects composition.
 
 ##### Exporting with a Render
+
 In most cases, it's best to export tracking data along with a render. This ensures that your camera and track points are perfectly up-to-date with the underlying footage.
 
 ![Render option](https://earth.google.com/studio/docs/assets/images/3d-export/render_setting.jpg ":size=500")
@@ -191,6 +192,7 @@ In most cases, it's best to export tracking data along with a render. This ensur
 To get tracking data when you render, select the desired format under 3D Tracking Data in the Advanced Settings. The tracking data script will be included with your image sequence and project file in the resulting zip.
 
 ##### Exporting as Standalone Script
+
 Some situations might require you to export tracking data for a project that has already been rendered. For example, you might need to add additional track points to an existing animation.
 
 ![Export 3D Tracking Data in Menus](https://earth.google.com/studio/docs/assets/images/3d-export/export_menu.jpg ":size=500")
@@ -199,7 +201,7 @@ At any time, you can use File > Export > 3D Tracking Data... to export tracking 
 
 #### Project settings
 
-Here you will find the main project settings as before in the [**start menu**](#Project-Configurations). And you can change everything as before.
+Here you will find the main project settings as before in the [**start menu**](#project-configurations). And you can change everything as before.
 
 #### Preferences
 
@@ -216,7 +218,7 @@ In General, you will find your landing page. This is the page you will be shown 
 
 ##### Project
 
-Here you will find almost the same settings as the [**start menu**](#Project-Configurations) but with some more detailed attributes. These can set the map style, the atmosphere, and the cloud settings.
+Here you will find almost the same settings as the [**start menu**](#project-configurations) but with some more detailed attributes. These can set the map style, the atmosphere, and the cloud settings.
 
 ##### Rendering
 
@@ -277,12 +279,12 @@ The View section provides a range of options for configuring your project's disp
 
 - **[Guides](#guides)**
 
-  - **[Show Guides](#show-guides)**
+  - **[Show Guides](#guides)**
     - Safe Margins, Thirds, Center, Custom Image: Configure guide settings for precise alignment in your project.
 
 - **[Toggle Fullscreen](#toggle-fullscreen)**
 
-  - _Has the same function as [fullscreen button](#toggle-full-screen)_
+  - _Has the same function as [fullscreen button](#toggle-fullscreen)_
     - Toggle between full-screen and regular view for an immersive editing experience.
 
 - **[View Port Mask](#view-port-mask)**
@@ -301,6 +303,7 @@ The View section provides a range of options for configuring your project's disp
   - _Here is more detail on [Track Points](#track-points)_: Access detailed settings for managing track points in your project.
 
 #### Multi-View
+
 In basic Earth Studio usage, everything is done through the eye of the lens. Obviously, this has its limits—if you're always inside the camera, there's no way to clearly visualize the path your camera will take between two key frames.
 
 **Multi-View** enables an entirely new method of animating Earth imagery. You can see the position and shape of your camera path from an outside perspective, edit that path, and even display multiple viewports at once.
@@ -313,6 +316,7 @@ When we talk about multi-view, we're covering two concepts:
 There are six viewports in all, including the Camera viewport. Multi-View consists of the Top view and the four Side views (North, South, East, and West).
 
 ##### Enabling Multi-View
+
 Multi-View can be accessed via the **View > Multi-View** menu or through the dropdown in the bottom-right corner of the viewport. Select a number of viewports, and Earth Studio will update to display them. You can use the 1–4 keys to quickly toggle to that number of viewports.
 
 ![Multi View](https://earth.google.com/studio/docs/assets/images/multiview/menus.jpg)
@@ -322,15 +326,18 @@ The number of viewports that can be displayed is dependent on the size of your b
 Multi-View will also be activated by default when you set a camera target.
 
 ##### Multi-View Options
+
 Switching Viewport Angles
 In any viewport, you can change the angle by using the dropdown in the upper-left corner. This is also an option when only one viewport is visible—you can switch out of the default Camera view at any time.
 
 ![Multi View Angles](https://earth.google.com/studio/docs/assets/images/multiview/settings.jpg)
 
 ##### Viewport Settings
+
 The settings menu in the upper-left corner of each multi-view has two options for adjusting the view. **Follow Camera on Playback** will automatically move and scale the viewport when the camera leaves the frame during playback. **Show Full Path on Playback** will re-frame the viewport to fit all paths in view on playback. Deselecting both will keep the Multi-View static during playback.
 
 ##### Multi-View Navigation
+
 Earth Studio handles navigation differently between the top and side views.
 
 **Top View:** Moving around in the Top view is similar to navigating in Google Maps. Click and drag the map to move around, and scroll to zoom in. To quickly navigate, hold while dragging to create a selection around a set of key frames. Then press **Z** to zoom to fit the selection into the frame.
@@ -338,27 +345,35 @@ Earth Studio handles navigation differently between the top and side views.
 **Side Views:** Moving around in a side view is similar to navigating in the curve editor. Hold while dragging to pan your view, and scroll to zoom in.
 
 #### Cycle View Points
+
 Switch between different views in your project seamlessly, providing a comprehensive perspective on your work.
 
 #### Preview Quality
+
 Adjust the quality of the preview display, allowing you to tailor the viewing experience based on your project's requirements, and adjusting to hardware limitations.
 
 #### Guides
+
 Configure guide settings for precise alignment in your project, including safe margins, thirds, center, and custom image guides.
 
 #### Toggle Fullscreen
+
 Toggle between full-screen and regular view to optimize your workspace based on your editing preferences.
 
 #### View Port Mask
+
 Configure the viewport mask settings to control the visible area in your project, allowing for focused editing.
 
 #### Available Areas
+
 Specify the available areas in your project to customize your editing environment based on specific regions.
 
 #### Map Style
+
 Earth Studio supports Map Styles. This allows you to turn on borders and labels for easier navigation of the globe. These map styles will not be included when rendering your animation. To view map styles, right-click the globe and select Map Style from the context menu.
 
 #### Track Points
+
 All existing Track Points are listed in the Track Point panel, which appears in the viewport whenever a new Track Point is created. From the panel, you can edit a Track Point's name, display color, or exact coordinates. Use the trash icon to delete a Track Point.
 
 [The Track Point panel](https://earth.google.com/studio/docs/assets/images/3d-export/tp_panel.jpg)
@@ -370,16 +385,16 @@ You can access the Track Point panel at any time from **View > Track Points**.
 Explore the Overlays section to enhance your projects with additional features:
 
 - **[Import KML](#import-kml)**
-  - [Upload for your device](#upload-for-your-device)
-  - [Drive](#drive)
+  - ***Upload for your device***
+  - ***Drive***
 
 #### Import KML
 
 Import Keyhole Markup Language (KML) files for your project, bringing in spatial and geographic data.
 
-- **[Upload for your device](#upload-for-your-device)**
+- ***Upload for your device***
   - _Description:_ Upload KML files directly from your local device.
-- **[Drive](#drive)**
+- ***Drive***
   - _Description:_ Access and import KML files stored in your Google Drive.
 
 #### Show Overlay Panels
@@ -396,23 +411,18 @@ Unlock the potential of dynamic content creation with the Animation section:
 
 - **[Render](#render)**
 
-  - _linked with [Render Button](#render-button)_
+  - _linked with [Render Button](#media-control-bar)_
     - Initiate the rendering process for your animation.
   - Recover Last Render: Retrieve the last rendered frame for quick reference.
   - Cloud Renders: Explore options for rendering projects in the cloud.
 
 - **[Animation Options](#animation-options)**
-  - [AutoEase](#autoease)
-  - [Ease in](#ease-in)
-  - [Ease out](#ease-out)
-  - [Linear](#linear)
-  - [Step](#step)
 
-#### Render
+#### RenderAnimation
 
 Initiate the rendering process for your animation, with additional options for recovering the last render and exploring cloud rendering capabilities.
 
-- _linked with [Render Button](#render-button)_
+- _linked with [Render Button](#media-control-bar)_
 - Recover Last Render: Quickly retrieve the last rendered frame for reference.
 - Cloud Renders: Explore rendering options in the cloud for efficient processing.
 
@@ -420,11 +430,11 @@ Initiate the rendering process for your animation, with additional options for r
 
 Customize animation options to achieve the desired motion effects:
 
-- [AutoEase](#autoease): Enable automatic easing for smoother transitions.
-- [Ease in](#ease-in): Apply easing at the beginning of animations for gradual acceleration.
-- [Ease out](#ease-out): Apply easing at the end of animations for gradual deceleration.
-- [Linear](#linear): Create animations with a consistent speed throughout.
-- [Step](#step): Generate animations with distinct, stepped transitions.
+- **AutoEase**: Enable automatic easing for smoother transitions.
+- **Ease in**: Apply easing at the beginning of animations for gradual acceleration.
+- **Ease out**: Apply easing at the end of animations for gradual deceleration.
+- **Linear**: Create animations with a consistent speed throughout.
+- **Step**: Generate animations with distinct, stepped transitions.
 
 ### Help
 
@@ -440,12 +450,11 @@ Navigate the Help section for comprehensive resources and support:
   - [General](#general)
   - [Project](#project)
   - [Timeline](#timeline)
-  - [Camera Viewport](#camera-viewport)
+  - [Camera Viewport](#camera-window)
   - [Multi-View](#multi-view)
 - **[About](#about)**
 
-![help panel](/de-ch/media/help-menu.png )
-
+![help panel](/de-ch/media/help-menu.png ":size=100")
 
 #### Documentation
 
@@ -468,7 +477,7 @@ Master keyboard shortcuts across various categories:
 - **[General](#general)**
 - **[Project](#project)**
 - **[Timeline](#timeline)**
-- **[Camera Viewport](#camera-viewport)**
+- **[Camera Viewport](#camera-window)**
 - **[Multi-View](#multi-view)**
 
 #### About
@@ -495,38 +504,43 @@ Once you're happy with how your animation looks, it's time to render.
 
 Explore rendering options and functionalities in the Render section:
 
-- **[Save Current Frame to JPEG](#save-current-frame-to-jpeg)**
+- **[Save Current Frame to JPEG](#single-frame-snapshots)**
   - _Description:_ Save the current frame of your animation as a JPEG image.
-- **[Render Button](#render-button)**
+- **[Render Button](#media-control-bar)**
   - _Description:_ Initiate the rendering process for your animation.
-- **[Feedback Button](#feedback-button)**
+- **[Feedback Button](#media-control-bar)**
   - _linked with [Feedback Page](#feedback)_
     - _Description:_ Provide feedback on your rendering experience.
 
 ### Single Frame Snapshots
+
 The snapshot button is the fastest way to export still images from Earth Studio. When you take a snapshot, your current view is immediately rendered and downloaded as a .jpg file at the resolution specified in the project settings.
 
 ### Rendering Animations
+
 For animations, Earth Studio offers two ways to render: a robust client-side renderer, which renders an image sequence directly on your computer to a directory you specify on your local hard drive, and a cloud-based renderer which runs remotely on Google's servers. To set up your render, click the render button.
 
 #### Setting Up
+
 On the left is a preview of your final output, restricted to the frame range of your work area. This is a low-fidelity preview—use it as a rough guideline to double-check that everything in your animation is cropped and moving as expected.
 
 On the right are the render settings, which are covered in depth below. Once you're ready to render, type in your file name, select your render method, and hit start.
 
 #### Cloud Rendering
+
 Cloud rendering (experimental) enables users to render videos directly from Earth Studio in the cloud.
 
 ##### How It Works
+
 Create an animation and click Render at the top right of the UI. From there, select the format Video (.mp4) and click Submit.
 
 You will be notified via email when the render has been completed with a link to download. Note that completed renders are available for download for 10 days before they are deleted. You can also download completed renders in the Render Queue.
 
 ![Render setup screen with cloud rendering enabled](https://earth.google.com/studio/docs/assets/images/cloud-rendering/render_setup_cloud.png)
-
 _Render setup screen with cloud rendering enabled_
 
 ##### Render Queue
+
 In the top menubar, select Animation > Cloud Renders… to bring up the render queue. Pressing AltQ (Mac) or ALTQ (Windows, Linux) while in the UI will bring up the queue too.
 
 ![Cloud Renders… in menubar](https://earth.google.com/studio/docs/assets/images/cloud-rendering/render_queue_menubar.png)
@@ -534,27 +548,30 @@ In the top menubar, select Animation > Cloud Renders… to bring up the render q
 You can monitor the progress of your cloud renders and manage them here including the option to download and delete completed renders as well as resubmitting previously rendered projects.
 
 ![Render queue allows users to easily manage all of their cloud renders](https://earth.google.com/studio/docs/assets/images/cloud-rendering/render_queue_dialog.png)
-
 _Render queue allows users to easily manage all of their cloud renders_
 
 ##### Limitations
+
 Cloud rendering allows you to render videos (H.264 / MPEG-4) that can contain [overlays](#overlays) and KMLs, but with a few caveats:
 
 18,000 frames daily quota (10mins at 30fps)
 Completed cloud renders will be available to download for 10 days only
 Does not include JPEG sequences in renders (only video)
 Does not include [Map Styles](#map-style) (‘Exploration’ and ‘Everything’) in renders
-Does not include [Planets](#diff-planets) (Moon and Mars) in renders
+Does not include **Planets** (Moon and Mars) in renders
 Any remote files referenced by a KML file must be accessible to Google's web crawler
 We recommend rendering locally for iterating animations or proxy workflows, and using cloud rendering for final renders.
 
 #### Local Rendering
+
 When rendering locally, Earth Studio steps through each frame of the animation and saves it to your local file system. If the render crashes or is abandoned, you can recover your progress the next time you open Earth Studio. Note that render speed is highly dependent on your internet connection. The faster your internet, the faster your animation will render.
 
 All the frames are rendered as an image sequence to the local directory you specify as you destination. If you've never turned an image sequence into a video, try [Adobe Media Encoder](https://www.adobe.com/products/media-encoder.html) or [Adobe After Effects](https://adobe.com/products/aftereffects.html).
 
 ### Render Settings
+
 #### Destination
+
 The local directory on your computer where the rendered project will be saved into. Before the rendering starts the browser will ask for special permission to read and write files to the selected directory on your file system. Earth Studio will create a sub-directory in your selected folder with the same name as your render.
 
 The directory only needs to be selected once unless the directory is moved around or removed from your file system.
@@ -566,17 +583,21 @@ The frame range of the project to render. By default, this matches your project'
 Change the output dimensions of your render. Aspect ratio is maintained by default, but can be unlinked and adjusted. The preview will update dynamically to reflect the new dimensions.
 
 #### Attribution Settings
+
 Controls where and how attribution displays on your rendered frames. Read more about our attribution requirements.
 
 #### Export Options
+
 Select elements to export in addition to the rendered footage. Currently supports 3D Camera Export via the Include 3D Tracking Data option.
 
 #### Map Style
+
 Include points of interest, roads, and country/region borders in the final render output. By default, this will be set to the map style that was selected in the timeline view, and can be adjusted here.
 
 ![Exploration map style included in render](https://earth.google.com/studio/docs/assets/images/rendering/map_styles.jpg)
 
 #### Texture Quality
+
 Adjusts the texture and mesh fidelity of your rendered output. Keep this at "High" to ensure you're getting the best possible data.
 
 Be aware that because the "High" quality setting loads the highest possible texture quality at a given location, tiling issues can be revealed when rendering. Try changing the render quality to "Normal" or even "Low" in these situations.
@@ -586,6 +607,7 @@ Be aware that because the "High" quality setting loads the highest possible text
 The "High" quality render reveals tiling issues in remote Africa, which aren't visible at "Normal" quality
 
 #### 360° Spherical (VR)
+
 When selected Earth Studio will render a panoramic equirectangular image for use in VR headsets or interactive videos, e.g. on YouTube. Before rendering, make sure to enable the "Time of Day" attribute to mitigate visible seams. See comparison images below. When exporting image sequences for use on YouTube, convert your Image Sequence to video and then make sure you inject metadata that helps YouTube understand your video is supposed to be viewed in 360, using e.g. the Spatial Media Metadata Injector.
 
 ![Tiling in High Quality vs. Normal Quality](https://earth.google.com/studio/docs/assets/images/rendering/360_spherical_issue.jpg)
@@ -597,13 +619,13 @@ _When rendering 360° spherical enable the “Time of Day” attribute to remove
 Navigate the Camera Window for specialized settings and controls:
 
 - **[Camera Select](#camera-select)**
-  - [Camera](#camera)
-  - [Top](#top)
-  - [North](#north)
-  - [South](#south)
-  - [East](#east)
-  - [West](#west)
-- **[Panel Select](#panel-select)**
+  - **Camera**
+  - **Top**
+  - **North**
+  - **South**
+  - **East**
+  - **West**
+- **Panel Select**
 
 ### Camera Select
 
@@ -633,16 +655,19 @@ Explore functionalities and controls within the Main Window:
 ### Add Attributes
 
 #### Attribute List
+
 "Attributes" are elements of the globe that can be animated, like the camera's position or rotation. Each attribute is displayed next to its current value, and a keyframe button. Attributes are arranged into groups based on function.
 
-![](https://earth.google.com/studio/docs/assets/images/interface/attributes.jpg)
+![Attribute list editor](https://earth.google.com/studio/docs/assets/images/interface/attributes.jpg)
 
 Additional attributes can be added from the Add Attributes menu. These enable exciting effects, like Time of Day to animate a sunset, or animate zoom with Field of View.
 
 #### Special Attributes
+
 Most animation in Earth Studio is handled by the Camera Position and Camera Rotation attributes. Additional attributes allow you more creative control over the appearance of the Earth.
 
 ##### Adding / Removing Attributes
+
 Attributes can be added and removed from the Attribute List using the Add Attributes menu. Simply check an attribute to enable and display it in the timeline, and it's ready to be keyframed and animated.
 
 If you uncheck an attribute, it will disappear from your timeline and revert to its default value. However, the “disappeared” keyframes are saved and will reappear when the attribute is added back to the scene.
@@ -663,6 +688,7 @@ The Camera Target group will be added to your Attribute List, with position valu
 You can also set a Camera Target through the Add Attributes menu. Enable the Camera Target group, and Earth Studio will create a target at the center of the camera's current view.
 
 ##### Using Target in the Camera Viewport
+
 By default, the camera target will be visible in your camera viewport. Note that the camera target will not be part of your final render output, but works as a visual helper to where you have focused your camera. Its visibility setting can be changed by right-clicking anywhere in the camera viewport under Viewport > Show Camera Target.
 
 [Right-click menu to toggle the visibility of the camera target](https://earth.google.com/studio/docs/assets/images/camera-target/camera-viewport.jpg)
@@ -670,6 +696,7 @@ By default, the camera target will be visible in your camera viewport. Note that
 _To move the Camera Target to another location in the Camera view, you can hold Alt while dragging._
 
 ##### Camera Roll (experimental)
+
 The Roll attribute allows you to bank the camera to create interesting compositions and fly throughs.
 
 ![Watch the video](https://youtu.be/zteiwWmYk3Q)
@@ -678,6 +705,7 @@ _Banking with Camera Roll_
 The feature is currently experimental as there are a few known issues: Atmosphere fades off when rolling the camera at low tilt, and Sun location inverts when hitting 90-degree roll while the camera is tilted. This can be mitigated by enabling the “Time of Day” Attribute. Additionally, we recommend using the timeline scrub inputs to navigate, as the mouse navigation controls are not optimized for Roll.
 
 ##### Field of View
+
 The Field of View attribute controls how much of the world displays in the frame. Changing this value is like changing the focal length of your camera lens.
 
 ![Watch the video](https://youtu.be/TB9cAYqMzZ8)
@@ -686,19 +714,23 @@ _Changing Field of View from the default 20° to 5° (zoom in), and then to 60°
 In Earth Studio, the field of view is measured as an angle in degrees. At higher angles, you see more of the world (a wide-angle lens effect). Lower values restrict the camera's view (a telephoto lens effect).
 
 ###### Time of Day
+
 Time of Day is a powerful cinematic effect. When enabled, Earth Studio renders realistic lighting, stars, and atmospherics based on the position of the sun. These elements are controlled by a date and time (GMT) value.
 
 ![Watch the video](https://youtu.be/Y-5wQx6WX1Y)
 
 ###### Lighting
+
 Depending on your location and the time of day at that location, Earth Studio will simulate daylight, nighttime, dawn, and dusk. At high altitudes, Earth Studio renders a nighttime texture of the Earth with city lights. This texture fades out between 8000 km and 3000 km.
 
 The appropriate shading is applied to 3D features on top of their existing textures, based on the angle of light. Shadows are cast by clouds on the landscape beneath them.
 
 ###### Stars
+
 Star data is sourced from the European Southern Observatory and is positioned in the sky appropriately based on the set date and time. This data is incredibly precise. All the celestial bodies are correctly mapped; even a solar eclipse will be visible in Earth Studio at the exact time it's scheduled. (Don't believe us? Check out the USA on 08/21/2017 at 18:27 GMT)
 
 ###### Atmospherics
+
 When Time of Day is enabled, Earth Studio will generate accurate atmospheric effects. These look especially beautiful at dawn and dusk.
 
 Just like in reality, atmospherics are affected by the weather. So if it's cloudy or rainy at your location, the scene will appear blue and overcast.
@@ -708,6 +740,7 @@ Just like in reality, atmospherics are affected by the weather. So if it's cloud
 _A clear sky vs. a cloudy sky at the same Time of Day. Overcast skies create a blue cast in the atmosphere._
 
 ###### Clouds
+
 Earth Studio renders clouds over the Earth by default. Cloud data is pulled from NOAA multiple times a day, so you'll always have a fairly accurate depiction of current weather patterns around the world.
 
 When Time of Day is turned off, clouds begin to fade out at 20,000 km. Below 8000 km, they don't render at all.
@@ -715,6 +748,7 @@ When Time of Day is turned off, clouds begin to fade out at 20,000 km. Below 800
 Sometimes, you might not want to display the clouds at any altitude—they might be blocking your subject or generating dreary weather atmospherics with Time of Day enabled. The Clouds attribute allows you to toggle clouds on and off as needed.
 
 ###### Ocean Overlay
+
 By default, Earth Studio displays the ocean topography when rendering the world's oceans. Set the Ocean Overlay attribute to on to render a smooth ocean surface. When combined with Time of Day, you can achieve beautiful lighting effects as the sun reflects off the water.
 
 ![Ocean Overlay off and on](https://earth.google.com/studio/docs/assets/images/attributes/ocean_overlay.jpg)
@@ -726,11 +760,12 @@ Depending on the angle of your camera, the ocean overlay will fade out between 6
 
 Beneath the viewport is the editor, our primary workspace for animation. The editor contains the Attribute List on the left and the Timeline on the right.
 
-![](https://earth.google.com/studio/docs/assets/images/interface/editor.jpg)
+![Editor overview panel](https://earth.google.com/studio/docs/assets/images/interface/editor.jpg)
 
 ### KeyFrame Button
 
 ### Timeline
+
 Earth Studio uses a traditional linear timeline to represent animations. The timeline is subdivided horizontally by frames and vertically into tracks.
 
 Frames are distributed evenly across the top of the timeline. You can change from frames to seconds in the project settings. Tracks correspond to their neighboring attribute. When a keyframe is added for an attribute, it appears in the track.
@@ -774,4 +809,5 @@ Explore the customization options within Google Earth Studio to style the OpenSt
 By seamlessly integrating Google Earth Studio with OpenStreetMap, you can unlock a new dimension of storytelling and visualization, combining the power of satellite imagery and 3D terrain with up-to-date and detailed map information.
 
 # My perosonal Video
+
 [https://youtu.be/l8SiOyaCblM]
