@@ -444,6 +444,9 @@ Navigate the Help section for comprehensive resources and support:
   - [Multi-View](#multi-view)
 - **[About](#about)**
 
+![help panel](/de-ch/media/help-menu.png )
+
+
 #### Documentation
 
 Access detailed documentation for a comprehensive understanding of the application's features and functionalities.
@@ -451,6 +454,8 @@ Access detailed documentation for a comprehensive understanding of the applicati
 #### User Forum
 
 Engage with the user community in the forum to seek advice, share experiences, and collaborate on projects.
+
+![user forum](/de-ch/media/forums.png)
 
 #### Feedback
 
