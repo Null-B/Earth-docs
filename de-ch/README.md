@@ -768,3 +768,4 @@ Erkunden Sie die Anpassungsoptionen in Google Earth Studio, um die Datenlagen vo
 Durch die nahtlose Integration von Google Earth Studio mit OpenStreetMap können Sie eine neue Dimension des Storytellings und der Visualisierung erschliessen, indem Sie die Kraft von Satellitenbildern und 3D-Terrain mit aktuellen und detaillierten Kartendaten kombinieren.
 
 # Mein persönliches Video
+[https://youtu.be/l8SiOyaCblM]
