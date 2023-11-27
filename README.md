@@ -681,7 +681,7 @@ The Camera Target attributes are a powerful way to control your camera's view. Y
 **Setting a Camera Target**
 The easiest way to set a Camera Target is directly in the Camera view. Simply right-click the point where you want your camera to look, and choose Set Camera Target from the menu.
 
-![Watch the video](https://youtu.be/g6Vt0JGBjEc)
+[Watch the video](https://youtu.be/g6Vt0JGBjEc)
 
 The Camera Target group will be added to your Attribute List, with position values matching the location of your click. The camera will point directly at this new target. As you playback your animation, your camera's rotation will update to keep this point in the center of your view.
 
@@ -699,7 +699,7 @@ _To move the Camera Target to another location in the Camera view, you can hold 
 
 The Roll attribute allows you to bank the camera to create interesting compositions and fly throughs.
 
-![Watch the video](https://youtu.be/zteiwWmYk3Q)
+[Watch the video](https://youtu.be/zteiwWmYk3Q)
 
 _Banking with Camera Roll_
 The feature is currently experimental as there are a few known issues: Atmosphere fades off when rolling the camera at low tilt, and Sun location inverts when hitting 90-degree roll while the camera is tilted. This can be mitigated by enabling the “Time of Day” Attribute. Additionally, we recommend using the timeline scrub inputs to navigate, as the mouse navigation controls are not optimized for Roll.
@@ -708,7 +708,7 @@ The feature is currently experimental as there are a few known issues: Atmospher
 
 The Field of View attribute controls how much of the world displays in the frame. Changing this value is like changing the focal length of your camera lens.
 
-![Watch the video](https://youtu.be/TB9cAYqMzZ8)
+[Watch the video](https://youtu.be/TB9cAYqMzZ8)
 
 _Changing Field of View from the default 20° to 5° (zoom in), and then to 60° (zoom out)_
 In Earth Studio, the field of view is measured as an angle in degrees. At higher angles, you see more of the world (a wide-angle lens effect). Lower values restrict the camera's view (a telephoto lens effect).
@@ -717,7 +717,7 @@ In Earth Studio, the field of view is measured as an angle in degrees. At higher
 
 Time of Day is a powerful cinematic effect. When enabled, Earth Studio renders realistic lighting, stars, and atmospherics based on the position of the sun. These elements are controlled by a date and time (GMT) value.
 
-![Watch the video](https://youtu.be/Y-5wQx6WX1Y)
+[Watch the video](https://youtu.be/Y-5wQx6WX1Y)
 
 ###### Lighting
 
