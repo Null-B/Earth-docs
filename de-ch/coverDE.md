@@ -1,6 +1,6 @@
-![Logo](/#/media/Google_Earth_icon.svg.png ":size=50")
+![logo](media/Google_Earth_icon.svg.png ":size=90")
 
-# Earth Studio
+# **Earth Studio**
 
 > Profi in Erdanimationen werden
 
@@ -12,4 +12,4 @@
 [Englisch](/)
 [Erste Schritte](/README.md)
 
-![color](#3376bd)
+![color](#ffd295)

@@ -8,8 +8,7 @@
 - How to be a Pro at 3D animations
 - Dont look silly anymore with dum your maps
 
-[Github](https://github.com/Null-B/Null-B.github.io)
 [Deutch](/de-ch/)
-[Get Started](#/?id=getting-started-with-google-earth-studio)
+[Github](https://github.com/Null-B/Null-B.github.io)
 
 ![color](#ffd295)
