@@ -6,7 +6,7 @@
 
 - Projektdokumentation
 - Wie man ein Profi in 3D-Animationen wird
-- Sehen Sie nicht mehr albern aus mit dummen PowerPoint-Karten
+- Sehen Sie nicht mehr albern aus mit dummen Karten
 
 [CodeSandBox](https://codesandbox.io/s/gallant-cookies-yvgnwd?file=/)
 [Englisch](/)
